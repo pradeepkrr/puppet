@@ -9,8 +9,3 @@ cron { 'run-puppet':
   hour    => '*',
   minute  => '*/15',
 }
-
-file { '/tmp/testPuppet':
-ensure => file,
-content => "Testing Puppet Auto setup \n",
-}
